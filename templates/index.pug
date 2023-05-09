@@ -1,0 +1,60 @@
+doctype html 
+html
+    head 
+        title Best Dance Academy 
+        style 
+            include ../static/style.css 
+    body
+        nav#navbar
+            ul
+                div#logo
+                    img(src="/static/danceLogo.jpg")
+                    | HDA
+                li #[a(href="/") Home]
+                li #[a(href="/") About]
+                li #[a(href="/") Services]
+                li #[a(href="/") Sponsers]
+                li #[a(href="/contact") Contact Us]
+
+        section#introSection 
+            div
+                |WELCOME TO DANCE ACADEMY
+            div.small     
+                |EAT SLEEP DANCE REPEAT
+
+        section#missionSection 
+            h2 Our Mission
+            div.card
+                h3 Dance Perfection
+                div.card-box 
+                    div.card-img
+                        img(src="/static/card7.png")
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat reiciendis natus saepe et alias. 
+            div.card
+                h3 Way of Life
+                div.card-box 
+                    div.card-img
+                        img(src="/static/card3.gif")
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat reiciendis natus saepe et alias. 
+            div.card
+                h3 Expert Guidance
+                div.card-box 
+                    div.card-img
+                        img(src="/static/card2.png")
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat reiciendis natus saepe et alias. 
+            //- div.card
+            //-     p This is a parah 
+
+        section#sponsorsection 
+            h2 OUR SPONSORS
+            div#sponsors
+                img(src="/static/logo2.jpeg")
+                img(src="/static/logo3.png")
+                img(src="/static/logo4.png")
+                img(src="/static/logo6.webp")
+
+        footer#footer 
+            | Copyright &copy; www.DanceAcademy.com. All Rights Reserved!
+
+        script  
+            include ../static/index.js

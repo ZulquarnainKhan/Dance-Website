@@ -1,0 +1,121 @@
+body{
+    background-color: black;
+}
+.form-div{
+    background: url('../static/contactbg2.jpg') no-repeat center center/cover;
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+h1{
+    text-align: center;
+    margin: 0px 0px;
+    color:white;
+    /* margin-top:40px; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 2px 2px 4px black;
+}
+h3{
+    display:inline-block;
+    width: 40vw;
+    /* border:2px solid red; */
+    color: white;
+    text-align: center;
+    margin:6px 444px ;
+    font-weight: 200 ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 1px 1px 2px black;
+}
+
+.myForm{
+    height: 50vh;
+    box-shadow: 2px 2px 5px 5px rgba(42, 42, 42, 0.6) ;
+    /* border: 2px solid red; */
+    border-radius: 30px;;
+    background-color: white;
+    margin-left: 200px; 
+    display: flex;
+    flex-direction:column;
+    width: 35%;
+    /* justify-content: center; */
+    padding-top: 30px; 
+    padding-bottom: 100px;
+    margin-top: 60px
+    /* margin-bottom: 20px;     */
+
+    
+    /* align-items: center; */
+
+}
+#form-name{
+    margin-left:101px;
+}
+#form-address{
+    margin-left:87px;
+}
+#form-email{
+    margin-left:101px;
+}
+#form-phone{
+    margin-left:108px;
+}
+#form-concern{
+    margin-left:83px;
+}
+
+label{
+    margin-left:30px;
+    /* padding: 30px 30px; 
+    padding: 30px 30px;  */
+    /* border: 2px solid black; */
+    font-size: 0.9rem;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.formgroup{
+    width: 100%;
+    margin: 3px;
+    /* border: 2px solid green; */
+}
+
+.myInput{
+    padding:2px;
+    width: 50%;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 3px;
+    margin-left: 100px;
+    border:1px solid rgb(206, 206, 206);
+    background-color: rgb(245, 245, 245);
+    
+    /* color:grey; */
+    outline: none;
+}
+
+.myInput::placeholder{
+    color: rgb(144, 144, 144);
+    opacity: 0.6;
+}
+
+.myInput:hover{
+    box-shadow: 2px 2px 5px rgba(210, 210, 210, 0.8);
+}
+
+#form-btn{
+    width: 150px;
+    font-size: 1rem;
+    margin: 44px 10px;
+    margin-left: 313px;
+    padding: 4px 10px;
+    background-color:#383d36;
+    color: white;
+    padding-bottom: 9px;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+#form-btn:hover{
+    color:black;
+    background-color:rgb(245, 235, 222);
+}

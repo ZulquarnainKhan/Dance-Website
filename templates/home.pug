@@ -1,0 +1,53 @@
+extends base.pug
+
+
+block scripts
+    script(src='/static/index.js')
+    
+block style 
+    style   
+        include ../static/style.css 
+
+block content
+
+        section#introSection 
+            div
+                |WELCOME TO DANCE ACADEMY
+            div.small     
+                |EAT SLEEP DANCE REPEAT
+
+        section#missionSection 
+            h2 Our Mission
+            div.card
+                h3 Dance Perfection
+                div.card-box 
+                    div.card-img
+                        img(src="/static/card7.png")
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat reiciendis natus saepe et alias. 
+            div.card
+                h3 Way of Life
+                div.card-box 
+                    div.card-img
+                        img(src="/static/card3.gif")
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat reiciendis natus saepe et alias. 
+            div.card
+                h3 Expert Guidance
+                div.card-box 
+                    div.card-img
+                        img(src="/static/card2.png")
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat reiciendis natus saepe et alias. 
+            //- div.card
+            //-     p This is a parah 
+
+        section#sponsorsection 
+            h2 OUR SPONSORS
+            div#sponsors
+                img(src="/static/logo2.jpeg")
+                img(src="/static/logo3.png")
+                img(src="/static/logo4.png")
+                img(src="/static/logo6.webp")
+
+        
+
+
+
